@@ -43,7 +43,7 @@
         />
 
         <div class="d-flex mt-2">
-          <input (keyup.enter)="onSearch()" class="form-control me-2" type="text" name="" id="" placeholder="Search">
+          <input (keyup.enter)="onSearch()" class="form-control me-2" type="text" name="" id="" placeholder="Search" #search>
           <button (click)="onSearch()" class="btn btn-outline-primary mx-2">Search</button>
           <button (click)="onReset()" class="btn btn-outline-success">Reset</button>
         </div>
